@@ -1,0 +1,11 @@
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Claude Code local state (keep CLAUDE.md and .claude/skills/ tracked)
+.claude/settings.local.json
+.claude/sessions/
+.claude/file-history/
+.claude/logs/
