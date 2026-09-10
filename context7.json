@@ -1,0 +1,13 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "pm-os-starter",
+  "description": "PM-OS starter kit: run a single PM's project management as an operating system with Claude Code, with CLAUDE.md operating principles, a knowledge base and decision skills.",
+  "folders": [],
+  "excludeFolders": ["node_modules", ".git", ".ralph"],
+  "excludeFiles": [],
+  "rules": [
+    "State (progress, decisions, context) lives in workspace/ files, not in chat history.",
+    "CLAUDE.md is loaded every session and defines how the AI accompanies the PM.",
+    "For organizations, use the sister project org-os-starter."
+  ]
+}
